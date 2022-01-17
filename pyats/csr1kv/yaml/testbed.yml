@@ -1,0 +1,40 @@
+devices:
+  Greenland:
+    connections:
+      cli:
+        ip: 192.168.1.1
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+        username: cisco
+      enable:
+        password: '%ENC{w5PDrMOEw6PCpMKRwpfChg==}'
+    os: iosxe
+    type: iosxe
+  Moncarlo:
+    connections:
+      cli:
+        ip: 10.0.0.2
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+        username: cisco
+      enable:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+    os: iosxe
+    type: iosxe
+  Rafaela:
+    connections:
+      cli:
+        ip: 192.168.2.1
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+        username: cisco
+      enable:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+    os: iosxe
+    type: iosxe

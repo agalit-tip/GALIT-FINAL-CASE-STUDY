@@ -1,0 +1,8 @@
+Greenland       ansible_host=192.168.1.1
+Moncarlo        ansible_host=10.0.0.2
+Rafaela         ansible_host=192.168.2.1
+
+[routers]
+Greenland
+Moncarlo
+Rafaela
